@@ -1,4 +1,8 @@
 package com.pokemon.pokebattle.repository;
 
-public class TipoRepository {
+import com.pokemon.pokebattle.model.Tipo;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TipoRepository extends JpaRepository<Tipo, Long> {
+    Tipo findByNome(String nome);
 }
