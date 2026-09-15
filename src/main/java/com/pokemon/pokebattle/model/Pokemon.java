@@ -21,6 +21,7 @@ public class Pokemon {
     private Integer atk;
     private Integer def;
     private Integer spd;
+    private Integer hpAtual;
 
     @ManyToMany
     @JoinTable (name = "pokemon_tipo",

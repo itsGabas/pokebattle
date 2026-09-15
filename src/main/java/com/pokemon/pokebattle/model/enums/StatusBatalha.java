@@ -1,4 +1,6 @@
 package com.pokemon.pokebattle.model.enums;
 
-public class StatusBatalha {
+public enum StatusBatalha {
+    EM_ANDAMENTO,
+    FINALIZADA
 }

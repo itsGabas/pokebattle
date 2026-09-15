@@ -1,4 +1,4 @@
 package com.pokemon.pokebattle.dto.request;
 
-public class TreinadorRequestDTO {
+public record TreinadorRequestDTO (String nome) {
 }

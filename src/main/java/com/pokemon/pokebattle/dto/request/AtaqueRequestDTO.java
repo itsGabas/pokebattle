@@ -1,4 +1,4 @@
 package com.pokemon.pokebattle.dto.request;
 
-public class AtaqueRequestDTO {
+public record AtaqueRequestDTO(Long atacanteId, Long movimentoId) {
 }
